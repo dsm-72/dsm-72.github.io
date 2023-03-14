@@ -4,7 +4,7 @@ publish(
     'build', // path to public directory
     {
         branch: 'gh-pages',
-        repo: 'https://github.com/dsm-72/dsm-72.git', // Update to point to your repository
+        repo: 'https://github.com/dsm-72/dsm-72.github.io.git', // Update to point to your repository
         user: {
             name: 'dsm-72',
             email: 'dsm-72'

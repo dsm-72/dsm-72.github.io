@@ -2,7 +2,7 @@
     /** @type {import('./$types').PageData} */
     export let data;
 </script>
-
+hi
 
 <!-- <div class="prose">
 {#each data?.collaborators as collaborator}

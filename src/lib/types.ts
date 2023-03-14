@@ -1,0 +1,1 @@
+export type GlobResults = Record<string, ()=>Promise<unknown>>

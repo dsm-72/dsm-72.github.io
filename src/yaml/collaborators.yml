@@ -1,0 +1,77 @@
+- ivanova:
+  name:
+    first: Natalia
+    last: Ivanova
+  image: https://www.genetics.uga.edu/sites/default/files/styles/square_400x400/public/Ivanova_Photo.jpg?itok=xyTvqAvU
+  email: natalia.ivanova@uga.edu
+  website: https://ivanovalab.uga.edu
+  phone: 706.542.6052
+  datasets:
+    - eb1
+    - eb2
+    - seo
+  relationships:
+    - Fabio R Santori:
+      relationship: wife
+    - Dong Eun Seo:
+      relationship: mentor
+  lab: ivanova
+
+- pusztai:
+  name:
+    first: Lajos
+    last: Pusztai
+  image: https://ysm-res.cloudinary.com/image/upload/c_fill,f_auto,q_auto:eco,w_650/v1/yms/prod/1261d944-c5ff-445d-b5e0-fc21290f3536
+  phone: 203.737.8309
+  datasets:
+    - acci
+  lab: pusztai
+
+- seo:
+  name:
+    first: Dong
+    middle: Eun
+    last: Seo
+  email: DongEun.Seo@uga.edu
+  datasets:
+    - seo
+  relationships:
+    - Natalia Ivanova:
+      relationship: student
+  lab: ivanova
+
+- santori:
+  name:
+    first: Fabio
+    middle: R
+    last: Santori
+  email: Fabio.Santori@uga.edu
+  relationships:
+    - Natalia Ivanova:
+      relationship: husband
+  datasets:
+    - seo
+  lab: ivanova
+
+- giraldez:
+  name:
+    first: Antonio
+    last: Giraldez
+  email: antonio.giraldez@yale.edu
+  phone: 203.785.5423
+  datasets:
+    - boswell
+  relationships:
+    - Curtis Boswell:
+      relationship: mentor
+  lab: giraldez
+
+- boswell:
+  name:
+    first: Curtis
+    last: Boswell
+  email: curtis.boswell@yale.edu
+  relationships:
+    - Antonio Giraldez:
+      relationship: postdoctoral fellow
+  lab: giraldez

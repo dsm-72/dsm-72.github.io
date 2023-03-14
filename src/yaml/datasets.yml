@@ -1,0 +1,73 @@
+- eb1:
+  name: Embryoid Body
+  year: 2018
+  mendeley: https://data.mendeley.com/datasets/v6n743h5ng/
+  download_url: https://data.mendeley.com/public-files/datasets/v6n743h5ng/files/b1865840-e8df-4381-8866-b04d57309e1d/file_downloaded
+  description: > 
+    Single cell RNA sequencing for embryoid body data 
+    generated over 27 day time course. Bulk RNA-sequencing data was 
+    generated from FACS sorted embryoid bodies using the indicated 
+    surface marker. Used to demonstrate the data visualization method 
+    PHATE.
+  owner: Natalia Ivanova
+  producers:
+    - Natalia Ivanova
+  citations:
+    - https://www.nature.com/articles/s41587-019-0336-3
+  projects:
+    - PHATE
+  model: human
+  keywords:
+    - embryoid
+    - bodies
+
+- eb2:
+  name: Embryoid Body Multiome
+  year: 2021
+  owner: Natalia Ivanova
+  producers:
+    - Natalia Ivanova
+  projects:
+    - GODE
+  model: human
+  keywords:
+    - embryoid
+    - bodies
+    - multiome
+
+- seo:
+  name: Neural Stem Cells
+  year: 2023
+  owner: Natalia Ivanova
+  producers:
+    - Dong Eun Seo
+    - Natalia Ivanova
+    - Fabio R Santori
+  projets:
+    - NSC
+  model: human
+  
+
+- acci:
+  name: ACCi
+  year: 2023
+  owner: Lajos Pusztai
+  keywords:
+    - breast
+    - cancer
+
+- boswell:
+  description: > 
+    Modeling vertebrate organogenesis in zebrafish across 
+    3 timepoints (12hr, 18hr, 24hr). Matched ATAC data is
+     available for  each cell.
+  year: 2023
+  model: zebrafish
+  owner: Antonio Giraldez
+  producers:
+    - Curtis Boswell
+    - Antonio Giraldez
+  keywords:
+    - embryoid
+    - bodies
+    - multiome

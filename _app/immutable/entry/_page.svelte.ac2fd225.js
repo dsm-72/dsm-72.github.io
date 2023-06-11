@@ -1,0 +1,1 @@
+import{S as s,i as o,s as r}from"../chunks/index.847936d9.js";function u(a,e,n){let{data:t}=e;return a.$$set=i=>{"data"in i&&n(0,t=i.data)},a.$$.update=()=>{a.$$.dirty&1&&(t==null||t.collaborators),a.$$.dirty&1&&(t==null||t.datasets)},[t]}class d extends s{constructor(e){super(),o(this,e,u,null,r,{data:0})}}export{d as default};
